@@ -8,6 +8,11 @@ import styles from './components/appStyles.module.css';
 import Inline from './components/Inline';
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+
+import PureComp from './components/PureComp';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
@@ -23,7 +28,11 @@ function App() {
         {/* <Form/> */}
       {/* </header> */}
 
-        <LifecycleA />
+        {/* <LifecycleA /> */}
+        {/* <FragmentDemo /> */}
+        {/* <Table /> */}
+        {/* <PureComp /> */}
+        <ParentComponent />
 
     </div>
   );
