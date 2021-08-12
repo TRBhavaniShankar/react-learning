@@ -13,6 +13,7 @@ import Table from './components/Table';
 
 import PureComp from './components/PureComp';
 import ParentComponent from './components/ParentComponent';
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
         {/* <FragmentDemo /> */}
         {/* <Table /> */}
         {/* <PureComp /> */}
-        <ParentComponent />
+        {/* <ParentComponent /> */}
+        <RefsDemo />
 
     </div>
   );
